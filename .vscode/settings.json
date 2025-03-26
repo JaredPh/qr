@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["getenv", "qrcode"],
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true
+}

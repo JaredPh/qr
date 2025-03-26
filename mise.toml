@@ -1,0 +1,27 @@
+[tools]
+node = "20"
+yarn = "1.22.22"
+
+[env]
+PORT = 5757
+
+[tasks.build]
+run = "yarn build"
+
+[tasks.check]
+run = "yarn check"
+
+[tasks.dev]
+run = "yarn dev"
+
+[tasks.format]
+run = "yarn format"
+
+[tasks.install-deps]
+run = "yarn"
+
+[tasks.lint]
+run = "yarn lint"
+
+[tasks.start]
+run = "yarn start"

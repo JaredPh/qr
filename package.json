@@ -1,0 +1,31 @@
+{
+  "name": "qr-code-api",
+  "version": "1.0.0",
+  "description": "API for generating QR codes",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "check": "biome check --apply .",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "format": "biome format . --write",
+    "lint": "biome lint .",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "dotenv": "^16.4.7",
+    "getenv": "^1.0.0",
+    "hono": "^4.0.5",
+    "qrcode": "^1.5.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/getenv": "^1.0.3",
+    "@types/node": "^20.11.19",
+    "@types/qrcode": "^1.5.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
